@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Noto Sans;
+    font-family: 16px;
+}
+
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background: #000;
+    flex-direction: row-reverse;
+    border-bottom: 2px solid #636466;
+    font-size: 13px;
+}
+header div {
+    padding: 0 40px;
+}
+
+header ul {
+    display: flex;
+}
+
+header a, .menu a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+}
+header a:hover {
+    color: #000;
+    background: #fff;
+    padding: 10px 20px;
+}
+.menu {
+    border-bottom: 4px solid #636466;
+}
+.menu, .menu ul {
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    width: 150px;
+    background: #000;
+}
+
+.menu a {
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section {
+   padding: 40px;
+   display: flex;
+}
+
+.uno {
+    background: url(public/1131816-red-black-twisted-lines-corner-bg-1920x600.jpg);
+    background-size: cover;
+}
+
+.uno div {
+    padding: 80px 40px;
+    color: #fff;
+}
+
+.uno h2 {
+    margin: 40px 0;
+}
+
+.uno img {
+    display: block;
+    margin-top: 10px;
+}
+
+.uno a, .dos a, .tres a, .cuatro a, .cinco a {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.uno a:hover, .cuatro a:hover, .cinco a:hover {
+    border: 2px solid #000;
+    background: rgba(255,255,255,0.25);
+}
+.dos, .tres {
+    justify-content: space-around;
+}
+.dos article {
+    padding: 10px 20px;
+}
+.dos img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dos h2 {
+    font-size: 20px;
+}
+.dos a {
+    color: #000;
+    border: 2px solid #000;
+    transition: .4s;
+}
+.dos a:hover {
+    color: #fff;
+    background: #000;
+    transition: .3s;
+}
+
+.tres {
+    align-items: center;
+    background: #000;
+}
+.tres h2, h3 {
+    color: #fff;
+}
+.tres h3 {
+    font-weight: lighter;
+}
+
+.cuatro {
+    background: rgba(99,100,102,1);
+    color: #fff;
+    margin: 0px 0px 50px;
+}
+
+.cuatro article {
+    padding: 20px;
+    width: 50%;
+}
+.cuatro img , .cinco img{
+    width: 100%;
+}
+
+.cuatro h2, .cinco h2 {
+    font-size: 30px;
+}
+.cuatro p, .cinco p {
+    font-size: 14px;
+}
+
+.cinco {
+    color: #fff;
+    justify-content: space-around;
+    background: url(https://www.amd.com/system/files/10286-xfxrx550-background-1920x600.jpg);
+    background-size: cover;
+}
+
+.cinco article {
+    padding: 0px 15px;
+    width: 33.33%;
+}
+
+.seis p{
+    margin: 0px 347px;
+    padding: 0px 15px 0px 30px;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    height: 70vh;
+}
+
+footer section {
+    width: 60%;
+    margin: auto;
+}
+
+footer a {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+footer ul {
+    display: flex;
+    border-bottom: 2px solid #636466;
+}
+
+footer nav {
+    height: 75px;
+    margin: 0px 0px 20px;
+}
+
+.formulario {
+    background-color: #273038;
+    padding: 15px;
+}
+.formulario label {
+    display: block;
+    color: #fff;
+    margin: 0px 0px 20px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1em;
+    width: 50%;
+    line-height: 30px;
+    padding: 0 0 0 5px;
+}
+
+.contenedor-flex {
+    display: flex;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #636466 ;
+}

@@ -1,0 +1,33 @@
+/*Selector Universal*/
+/* * { color:red;} */
+
+/*Selectores de etiqueta*/
+h1,h2,h3,h4,h5,h6{
+    color:blue;
+}
+
+h2{
+    color:red;
+}
+
+/*Selector descendente*/
+
+div p {
+    font-size: 20px;
+    color: #000;
+}
+
+div p a {
+    color: red;
+}
+
+/*Selector de clase*/
+
+.grande {
+    font-size: 28px;
+}
+/*Selector de id, mejor no usarlo
+  el id mejor solo utilizarlo para javascript */
+#rojo {
+    color: red;
+}

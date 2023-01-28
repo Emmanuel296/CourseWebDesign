@@ -1,0 +1,10 @@
+{
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "zenMode.fullScreen": true,
+    "zenMode.centerLayout": true,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": true
+}

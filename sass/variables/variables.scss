@@ -1,0 +1,11 @@
+$colorPrimario: #1b3d82;
+$colorSecundario: #000;
+
+.articulo {
+    .titulo {
+        color: $colorPrimario;
+    }
+    p {
+        color: $colorSecundario;
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Noto Sans;
+}
+
+header {
+    background: #000;
+    color: #fff;
+}
+
+header .menu1 {
+    height: 39px;
+    border-bottom: 2px solid #636466;
+}
+header .menu1 nav {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+header ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    color: #fff;
+}
+
+header li {
+    font-size: 13px;
+}
+
+header a, .menu2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.menu2, .menu2 ul {
+    display: flex;
+    align-items: center;
+    background: #000;   
+}
+
+.menu2 img {
+    width: 150px;
+}
+

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Hurricane";
+    src: url('fonts/Hurricane/Hurricane-Regular.ttf')
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url('fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf');
+}
+h1 {
+    font-family: "Hurricane";
+    /* font-weight: normal; */
+}
+
+p {
+    font-family: "Fredoka";
+}
+
+body {
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    color: #5600fa;
+    font-weight: bold;
+}
+
+/*Normalmente lo que se hace es que esto se pone en un archivo separado que se llama fuentes.css y se importa en el html */

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background: #0067aa;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    background: #af6512;
+    padding: 20px;
+    border: 1px solid #af6522;
+    border-radius: 3px;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+form .btn {
+    width: 100%;
+    background: #cf5c36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}

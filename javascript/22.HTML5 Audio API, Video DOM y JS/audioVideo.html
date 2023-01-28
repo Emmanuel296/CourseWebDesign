@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlando Audio y Video de HTML 5 con Javascript</title>
+</head>
+<body>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #c2c2c2;
+            font-family: 'Roboto';
+        }
+        
+        .contenedor {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px 50px;
+            /* height: 100vh; */
+            background: #f2f2f2;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
+
+        .titulo {
+            justify-self: start;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            grid-column: span 3;
+        }
+
+        .media {
+            background: #343434;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            grid-column: span 3;
+        }
+
+        .media__titulo {
+            background: #b1c2d4;
+            width: 100%;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+            border-bottom: 3px solid rgba(256,256,256,0.5);
+        }
+
+        .media__video {
+            width: 80%;
+            /* display: none; */
+        }
+
+    </style>
+
+    <div class="contenedor">
+        <h1 class="titulo">Audio y Video</h1>
+        <div class="media">
+            <h2 class="media__titulo">Video</h2>
+            <video src="media/keyboard.mp4" class="media__video" id="video" controls>
+                <p>Tu navegador no soporta videos en HTML5, por favor actualizalo.</p>
+            </video><br>
+        </div>
+        
+        <div class="media">
+            <h2 class="media__titulo">Audio</h2>
+            <audio  class="media__audio" src="media/hyperfun.mp3" id="video" controls>
+                <p>Tu navegador no soporta audios en HTML5, por favor actualizalo.</p>
+            </audio><br>
+        </div>
+
+        <div class="botones">
+            <button id="play">Reproducir</button>
+            <button id="pause">Pausar</button>
+        </div>
+
+        <input type="range" value="1" min="0" max="1" step="0.1" id="volumen">
+    </div>
+
+    <script>
+        var video = document.getElementById('video'),
+            btnPlay = document.getElementById('play'),
+            btnPause = document.getElementById('pause'),
+            volumen = document.getElementById('volumen');
+
+            btnPlay.addEventListener('click', function(){
+                video.play();
+            })
+
+            btnPause.addEventListener('click', function(){
+                video.pause();
+            })
+
+            volumen.addEventListener('change', function(){
+                video.volume = volumen.value;
+            });
+
+            // -- Propiedades 
+            // video.currentTime - regresa el tiempo en el que va el video
+            // video.duration - regresa la duración del video
+            // video.ended - regresa si el video ya termino
+
+            // -- Eventos
+
+            /*
+                pause
+                play
+            */
+    </script>
+</body>
+</html>

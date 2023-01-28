@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+<body>
+    <script>
+
+        // if(typeof(Storage) !== undefined){
+        //     localStorage.setItem('nombre', 'Carlos Arturo');
+        //     // localStorage.nombre = 'Carlos';
+        //     document.write('Si soporta <br>' );
+        //     document.write(localStorage.nombre);
+        // } else {
+        //     document.write('Tu navegador no soporta Local Storage <br>');
+        // }
+
+        // setTimeout(function(){
+        //     localStorage.removeItem('nombre')
+        //     if(localStorage.nombre!== undefined){
+        //         document.write('No se elimino local storage')
+        //         document.write('<br>')
+        //     } else {
+        //         document.write('Se elimino el name correctamente local storage')
+        //     }
+        // }, 5000)
+
+        // ----- ----- -----
+        // Llamamos al nombre guardado en localStorage
+        // document.write(localStorage.nombre);
+
+        // Eliminamos el elemento de localStorage
+        // localStorage.removeItem('nombre')
+
+        // ----- ----- ----- Session Storage
+
+        // sessionStorage.nombre = 'Carlos';
+        document.write(sessionStorage.nombre);
+
+        //Con session storage la información se va a cerrar cuando el usuario cierre el navegador
+
+    </script>
+</body>
+</html>

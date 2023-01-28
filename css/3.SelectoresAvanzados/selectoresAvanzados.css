@@ -1,0 +1,20 @@
+div > p { /*Con esto le decimos que solo lo aplique a los parráfos seguidos de un div*/
+    font-size: 20px;
+}
+
+/*Selector avanzado por atributo, usado en formas mayormente*/
+input[type] {}
+
+input[type="text"]{}
+
+/* ejemplo de erencia */
+
+body {
+    font-size: 20px;
+    color: "blue";
+}
+
+article {
+    font-size: 16px;
+    color: black;
+}

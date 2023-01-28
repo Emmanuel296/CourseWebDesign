@@ -1,0 +1,22 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    /* background: rgb(84%, 15%, 24%); */
+    /* background: fuchsia; */
+    /* background: rgb(215,38,61); */
+    /* background: #56a4fe; */
+    background: rgba(215, 38,61, 0.5);
+}
+
+/* - Hay diecisiete palabras clave que podemos usar:
+    aqua, black, blue, fuchsia, gray, green, lime, maroon, navy,
+    olive, orange, purple, red, silver, teal, white, yellow 
+    
+    - RGB Decimal: rgb(215, 38, 61)
+
+    -RGB Porcentual: rgb(84%, 15%, 24%)
+
+    -RGB Hexadecimal: #D7263D
+
+    rgba: la a corresponde al nivel de opacidad del color y va de 0 a 1.    	
+    */

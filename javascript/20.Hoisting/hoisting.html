@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisting</title>
+</head>
+<body>
+    <script>
+        nombre = 'Carlos'; //Inicialización
+        document.write(nombre);
+        
+        var nombre; //Declaración, Javascript siempre declara las variables primero aunque no esten al principio de la aplicación.
+
+//  ----- ------ ----- ----- 
+        //IMPORTANTE: Javascript sólo posicionara al inicio las "declaraciones", no las "inicializaciones".
+        var nombre;
+        document.write(nombre);
+
+        nombre = 'Carlos';
+
+        // Esto da error ya que nombre no se ha inicializado aún
+    </script>
+</body>
+</html>

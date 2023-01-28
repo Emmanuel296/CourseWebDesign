@@ -1,0 +1,16 @@
+.texto {
+    text-shadow: 0px 0px 0px #000;
+    /* posicin horizontal, posicin vertical, tamaño de la sombra  */
+    color: #fff;
+    text-shadow: 2px 0px 10px blue; 
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.5);
+
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,0.5) ;
+    -moz-box-shadow:0 5px 10px rgba(0,0,0,0.5) ;
+}
